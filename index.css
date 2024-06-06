@@ -1,0 +1,80 @@
+/* Challenge: Make it so that the user cannot select the text */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #D6FFFF;
+    color: #14276A;
+    user-select: none;
+    font-family: "Reddit Mono", monospace;
+}
+
+h1 
+{
+    margin: 0 auto;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img {
+    width: 300px;
+    margin: 0 auto;
+}
+
+input {
+    color: #432000;
+    background-color: #CEF1FE;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0;
+}
+
+button {
+    color: #FDFDFD;
+    background-color: #44CDDA;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+button:hover {
+    background-color: #3BBECF;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    font-size: 20px;
+    background-color: #CEF1FE;
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+}
+
+ul li:hover {
+    background-color: #3BBECF;
+    cursor: pointer;
+}
