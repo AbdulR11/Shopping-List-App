@@ -16,14 +16,24 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div class="container">
-            <h1>Shopping List </h1>
-            <img src="assets/shopper.png">
-            <input type="text" id="input-field" placeholder="Bread">
-            <button id="add-button">Add to cart</button>
-            <ul id="shopping-list">
-            </ul>
-        </div>
+        <section id="view-logged-out">
+            <div class="container">
+                <img src="assets/shopper.png">
+                <button id="google-btn">Continue with Google</button>
+            </div>
+        </section>    
+        
+        <section id="view-logged-in">
+            <div class="container">
+                <h1>Shopping List </h1>
+                <h3 id="log-out-btn">Log out</h3>
+                <img src="assets/shopper.png">
+                <input type="text" id="input-field" placeholder="Bread">
+                <button id="add-button">Add to cart</button>
+                <ul id="shopping-list">
+                </ul>
+            </div>
+        </section>    
         <script src="index.js" type="module"></script>
     </body>
 </html>
