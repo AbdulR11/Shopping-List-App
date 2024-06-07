@@ -10,12 +10,33 @@ html, body {
     font-family: "Reddit Mono", monospace;
 }
 
+#view-logged-in
+{
+    display: none;
+}
+
+#view-logged-out
+{
+    display: none;
+}
+
 h1 
 {
     margin: 0 auto;
     text-decoration: underline;
 }
 
+h3 
+{
+    text-align: center;
+    
+}
+
+h3:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
 .container {
     display: flex;
     flex-direction: column;
